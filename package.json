@@ -1,0 +1,23 @@
+{
+    "name": "Demo",
+    "version": "0.1.0",
+    "description": "",
+    "main": "lib/src/index.js",
+    "types": "lib/src/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "dev": "npm run build; node ./lib/index.js",
+        "clean": "shx rm -rf _bundles lib",
+        "lint": "tslint src/**/*.ts"
+    },
+    "license": "Apache-2.0",
+    "devDependencies": {
+        "shx": "^0.2.2",
+        "tslint": "5.8.0",
+        "typescript": "2.7.1"
+    },
+    "dependencies": {
+        "@0xproject/subproviders": "0.9.0",
+        "web3-provider-engine": "^14.0.4"
+    }
+}
