@@ -12,9 +12,5 @@
     "compilerOptions": {
         "typeRoots": ["node_modules/@0xproject/typescript-typings/types", "node_modules/@types"]
     },
-    "include": [
-        "./src/**/*",
-        "./test/**/*",
-        "./node_modules/@0xproject/typescript-typings/types/web3-provider-engine/index.d.ts"
-    ]
+    "include": ["./src/**/*", "./test/**/*"]
 }
